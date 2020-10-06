@@ -1,0 +1,6 @@
+@import './colors';
+
+// Gets a Theme
+@function color($colorName) {
+    @return map-get($color, $colorName);
+}

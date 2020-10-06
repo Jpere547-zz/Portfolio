@@ -1,0 +1,19 @@
+@import './functions';
+
+
+
+$blue-green-theme: (color-theme: #88C5CC,
+    color-secondary: #88A3CC,
+    color-body: #88CCB1,
+    color-heading: #ffffff,
+    color-border: #88a3cc0a,
+    color-bg-body: #1e2c2e,
+    color-bg-dark: #0c0e16);
+
+$navy-orange-theme: (color-theme: #ed725c,
+    color-secondary: #777978,
+    color-body: #c5c6cc,
+    color-bg-body: #000c38,
+    color-bg-dark: #0c0e16,
+    color-heading: #ffffff,
+    color-border: #88a3cc0a, );
