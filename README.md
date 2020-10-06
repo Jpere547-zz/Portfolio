@@ -9,14 +9,9 @@ This is a repo for my Personal Portfolio - JPDesign.tech
 - [About](#about)
 - [Portfolio Preview](#portfolio-preview)
 - [Skills Used](#skills-used)
-- [Course Certification](#udemy-certification)
 - [Setup](#setup)
 - [Sources & References](#sources-&-references)
 - [Scripts](#Scripts,-APIs-&-More)
-
-## Udemy Course:
-
-[![image alt text](https://img-a.udemycdn.com/course/240x135/1109926_7f97_2.jpg)](https://www.udemy.com/course/graphql-with-react-course/)
 
 ## About:
 
@@ -39,7 +34,6 @@ This is a portfolio I worked on and built using React, Firebase, and SASS.
 [![shieldio made-with](https://img.shields.io/badge/Git--Fork-blue?logoColor=white&logo=git&style=for-the-badge)](https://git-fork.com/)
 [![shieldio made-with](https://img.shields.io/badge/FireFox-blue?logoColor=white&logo=firefox&style=for-the-badge)](https://firefox.com/)
 ![shieldio made-with](https://img.shields.io/badge/Mac%20OS-FF8700?logo=apple&logoColor=white&style=for-the-badge)
-
 
 
 ## Setup:
