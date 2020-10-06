@@ -24,7 +24,7 @@ class ParticlesEffects extends React.Component {
           },
         },
         color: {
-          value: "#88CCB1",
+          value: "#ed725c",
         },
         opacity: {
           value: this.state.opacity,

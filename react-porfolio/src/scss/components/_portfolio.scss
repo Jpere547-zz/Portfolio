@@ -8,8 +8,9 @@
   opacity: 0;
 
   &-tag {
-    padding: 5px;
+    margin-left: 5px;
     color: $color-secondary;
+    position: relative;
   }
 
   &-Course {
@@ -19,6 +20,7 @@
     color: white;
     padding: 10px;
   }
+
 
   &-Freelance {
     display: inline-block;
@@ -39,6 +41,29 @@
   &-image {
     display: block;
     position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    width: 90%;
+    height: 200px;
+
+    &-github {
+      font-size: 1.45rem;
+      top: 80%;
+      left: 85%;
+      height: 45px;
+      width: 45px;
+      line-height: 1;
+      text-align: center;
+      border: 2px solid $color-border;
+      border-radius: 100px;
+      line-height: 45px;
+      position: absolute;
+      z-index: 5;
+
+      &:hover {
+        border-color: $color-theme;
+      }
+    }
 
     &::before {
       content: "";
@@ -47,7 +72,7 @@
       top: 15px;
       height: calc(100% - 30px);
       width: calc(100% - 30px);
-      background: rgba(#ffffff, 0.9);
+      background: rgba(#ffffff, 0.2);
       transition: $transition;
       transform: scaleX(0);
       transform-origin: 0;

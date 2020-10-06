@@ -3,6 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import axios from "axios";
 import LineIcon from "react-lineicons";
 import ParticlesEffects from "../components/ParticlesEffects";
+import Socialicons from "../components/Socialicons";
 
 function Header() {
   const [information, setInformation] = useState("");
@@ -71,11 +72,12 @@ function Header() {
             </NavLink>
           </li>
         </ul>
+        <Socialicons bordered />
         <p className="mi-header-copyright">
           &copy; {new Date().getFullYear()}{" "}
           <b>
-            <a rel="noopener noreferrer" target="_blank" href="#">
-              JeanDesigns
+            <a rel="noopener noreferrer" target="_blank" href="/">
+              JPDesign
             </a>
           </b>
         </p>

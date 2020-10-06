@@ -5,15 +5,20 @@ import ProgressIcon from "./ProgressIcon";
 function Progress(props) {
   const winWidth = window.innerWidth;
   const progressQuery = () => {
-    if (winWidth && winWidth > 767) {
+    if (winWidth && winWidth > 67) {
       return (
         <span
           className="mi-progress-active"
           style={
-            props.isVisible ? { width: `${props.percentage}%` } : { width: 0 }
+            props.isVisible ? { width: `${props.percentage}%` } : { width: 30 }
           }
         >
-          <ProgressBar animated variant={props.variant} now={100} />
+          <ProgressBar
+            animated
+            variant={props.variant}
+            now={100}
+            style={{ minWidth: 30 }}
+          />
         </span>
       );
     }

@@ -20,6 +20,12 @@ import {
   DiSass,
   SiNotion,
   SiApollographql,
+  SiHtml5,
+  SiCss3,
+  SiBootstrap,
+  SiJquery,
+  SiFlutter,
+  SiDart,
 } from "react-icons/all";
 
 function PortfolioTags(props) {
@@ -64,6 +70,18 @@ function PortfolioTags(props) {
       return <SiAdobephotoshop />;
     } else if (props.tag === "git") {
       return <SiGit />;
+    } else if (props.tag === "html") {
+      return <SiHtml5 />;
+    } else if (props.tag === "css") {
+      return <SiCss3 />;
+    } else if (props.tag === "bootstrap") {
+      return <SiBootstrap />;
+    } else if (props.tag === "jquery") {
+      return <SiJquery />;
+    } else if (props.tag === "flutter") {
+      return <SiFlutter />;
+    } else if (props.tag === "dart") {
+      return <SiDart />;
     }
   };
   return <span className="mi-portfolio-tag">{pickIcon()}</span>;

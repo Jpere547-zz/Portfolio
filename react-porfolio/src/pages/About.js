@@ -92,10 +92,10 @@ function About() {
                 <p>
                   I am a full stack web developer with over seven years
                   experience in the computing and technology industry. I've
-                  earned a Master of Science in Computer Engineering from UCF &
-                  a Bacholer's of Science in Computer Engineering. My goal is to
-                  become as verstile as possible in the world of Full Stack
-                  Development.
+                  earned a Masters of Science in Computer Engineering from UCF &
+                  a Bachelors of Science in Computer Engineering from FIU. My
+                  goal is to become as versatile as possible in the world of
+                  Full Stack Development.
                 </p>
                 <ul>
                   {!information.name ? null : (
@@ -125,7 +125,7 @@ function About() {
                   )}
                   {!information.email ? null : (
                     <li>
-                      <b>Email</b> {information.email}
+                      <b>Email</b> {information.email[0]}
                     </li>
                   )}
                   {!information.address ? null : (
