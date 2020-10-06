@@ -40,18 +40,13 @@ This is a portfolio I worked on and built using React, Firebase, and SASS.
 [![shieldio made-with](https://img.shields.io/badge/FireFox-blue?logoColor=white&logo=firefox&style=for-the-badge)](https://firefox.com/)
 ![shieldio made-with](https://img.shields.io/badge/Mac%20OS-FF8700?logo=apple&logoColor=white&style=for-the-badge)
 
-## Udemy Certification:
 
-<p align="center">
-  <a href="https://www.udemy.com/certificate/UC-bb5bf189-2f19-4aef-8476-7b19cc9d2a8e/"><img src="UdemyCourseCompletionCertification.jpg" width="350" alt="accessibility text"></a>
-</p>
 
 ## Setup:
 
-Go into the Lyrical project directory.
-
 1. Run `npm install`
 2. Run `npm run dev`
+3. Open Localhost:3000
 
 ## Sources & References:
 
