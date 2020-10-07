@@ -7,4 +7,5 @@ react-porfolio/.firebase/hosting.YnVpbGQ.cache
 .firebase
 src/data/db/database.js
 build
+src/blog
 .firebaserc
