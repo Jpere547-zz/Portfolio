@@ -4,3 +4,7 @@ react-porfolio/firebase.json
 react-porfolio/.firebaserc
 .DS_Store
 react-porfolio/.firebase/hosting.YnVpbGQ.cache
+.firebase
+src/data/db/database.js
+build
+.firebaserc

@@ -27,6 +27,11 @@ function Home() {
           <div className="row justify-content-center">
             <div className="col-lg-10 col-12">
               <div className="mi-home-content">
+                <img
+                  className="mi-home-image"
+                  src={information.homeImage}
+                  alt="brandimage"
+                />
                 <h1>
                   Welcome! My Name is{" "}
                   <span className="color-theme">{information.name}</span>

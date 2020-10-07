@@ -50,14 +50,14 @@
         display: block;
         width: 100%;
         text-align: center;
-        border-bottom: 1px solid $color-border;
+        //border-bottom: 1px solid $color-border;
 
         a {
             height: 200px;
             width: 200px;
             border-radius: 1000px;
-            border: 7px solid $color-border;
-            overflow: hidden;
+            //border: 7px solid $color-border;
+            //overflow: hidden;
             display: inline-block;
             vertical-align: middle;
         }

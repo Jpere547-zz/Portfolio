@@ -12,6 +12,14 @@
     z-index: 1;
   }
 
+  &-image {
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+  }
 
   &-particle {
     position: absolute;
