@@ -39,7 +39,7 @@ function Resumes() {
               <span className="mi-smalltitle-icon">
                 <DevicesOther fontSize="large" />
               </span>
-              <h4>Language Skills</h4>
+              <h4>Languages & Frameworks</h4>
             </div>
             <div className="row mt-30-reverse">
               {skills.map((skill) => (
@@ -71,7 +71,7 @@ function Resumes() {
               <span className="mi-smalltitle-icon">
                 <Build fontSize="large" />
               </span>
-              <h4>Development Tools</h4>
+              <h4>Development & Platform Tools</h4>
             </div>
             <div className="row mt-30-reverse">
               {tools.map((tool) => (

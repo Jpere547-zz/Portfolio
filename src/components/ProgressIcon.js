@@ -5,6 +5,9 @@ import {
   SiFirebase,
   FaReact,
   FaNodeJs,
+  SiRedux,
+  SiKubernetes,
+  SiTypescript,
   FaAngular,
   GrGraphQl,
   SiHeroku,
@@ -20,6 +23,12 @@ import {
   DiSass,
   SiNotion,
   SiApollographql,
+  FaSketch,
+  DiGoogleCloudPlatform,
+  SiPostgresql,
+  SiFlutter,
+  DiDart,
+  GrGolang,
 } from "react-icons/all";
 
 function ProgressIcon(props) {
@@ -28,6 +37,12 @@ function ProgressIcon(props) {
       return <FaReact />;
     } else if (props.icon === "nodejs") {
       return <FaNodeJs />;
+    } else if (props.icon === "golang") {
+      return <GrGolang />;
+    } else if (props.icon === "dart") {
+      return <DiDart />;
+    } else if (props.icon === "flutter") {
+      return <SiFlutter />;
     } else if (props.icon === "javascript") {
       return <DiJavascript1 />;
     } else if (props.icon === "mongodb") {
@@ -64,6 +79,18 @@ function ProgressIcon(props) {
       return <SiAdobephotoshop />;
     } else if (props.icon === "git") {
       return <SiGit />;
+    } else if (props.icon === "kubernetes") {
+      return <SiKubernetes />;
+    } else if (props.icon === "redux") {
+      return <SiRedux />;
+    } else if (props.icon === "typescript") {
+      return <SiTypescript />;
+    } else if (props.icon === "sketch") {
+      return <FaSketch />;
+    } else if (props.icon === "googlecloud") {
+      return <DiGoogleCloudPlatform />;
+    } else if (props.icon === "sql") {
+      return <SiPostgresql />;
     }
   };
   return (
